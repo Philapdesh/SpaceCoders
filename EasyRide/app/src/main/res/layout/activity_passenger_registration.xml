@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="PASSENGER REGISTRATION"
+
+        android:textStyle="bold"
+        android:id="@+id/txtCreate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        android:alpha="0.8"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:hint="Surname"
+        android:textColorHint="@android:color/white"
+        android:textSize="15sp"
+        android:id="@+id/txtFullname"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+
+        android:layout_below="@+id/txtCreate"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textboxstyle"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/txtFull"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtFullname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/textboxstyle"
+        android:hint="Full Names"
+        android:textColor="#000"
+        android:textColorHint="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:hint="Id Number"
+        android:textColorHint="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@+id/txtFull"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+        android:id="@+id/txtIdno"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textboxstyle"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:hint="Email Address"
+
+        android:textSize="15sp"
+        android:layout_below="@+id/txtIdno"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+        android:id="@+id/txtEmailaddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textboxstyle"
+        android:layout_height="50dp" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:hint="Physical Address"
+        android:textColorHint="@android:color/white"
+        android:textSize="15sp"
+        android:layout_below="@+id/txtEmailaddress"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+        android:id="@+id/txtEmailAddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textboxstyle"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txtCode"
+        android:hint="Code"
+
+        android:textSize="15sp"
+        android:layout_below="@+id/txtEmailAddress"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textboxstyle"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/txtCode"
+        android:id="@+id/txtPass"
+
+        android:background="@drawable/textboxstyle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#002366"
+        android:alpha="0.8"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:text=""
+        android:textColorHint="@android:color/white"
+        android:background="@drawable/textboxstyle"
+        android:hint="Confirm Password"
+        android:id="@+id/txtPassConf"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:alpha="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffeeeeee"
+        android:alpha="0.8"
+        android:layout_below="@+id/txtPassConf"
+        android:id="@+id/btnSignup"
+        android:background="@drawable/button"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"   />
+
+
+</RelativeLayout>

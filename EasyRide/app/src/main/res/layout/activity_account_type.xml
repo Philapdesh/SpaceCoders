@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountType">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="Choose Your Account Type"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:lottie_loop="true"
+        />
+<LinearLayout
+  android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <Button
+        android:background="@drawable/button"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:id="@+id/Driverbtn"
+        android:text="Driver"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:id="@+id/Passengerbtn"
+        android:text="Passenger"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Easy-Ride</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Map_key"  translatable="false">AIzaSyB-4kR5YGP01XAjMVPChutQmK7NLTOqHk4</string>
+
+</resources>

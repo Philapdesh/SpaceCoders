@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <item android:state_pressed="false">
+
+
+    <layer-list>
+
+
+      <item android:top="3dp" android:right="3dp">
+
+
+        <shape>
+
+          <corners android:radius="5.0dp"/>
+
+          <solid android:color="#002366"/>
+
+        </shape>
+
+      </item>
+
+
+      <item android:top="1dp" android:bottom="1dp">
+
+
+        <shape>
+
+          <gradient android:startColor="#FFD700" android:endColor="#002366" android:angle="180"/>
+
+          <stroke android:color="#002366" android:width="1dp"/>
+
+          <corners android:radius="5.0dp"/>
+
+          <padding android:top="3dp" android:right="3dp" android:bottom="3dp" android:left="3dp"/>
+
+        </shape>
+
+      </item>
+
+    </layer-list>
+
+  </item>
+
+
+  <item android:state_pressed="true">
+
+
+    <layer-list>
+
+
+      <item android:top="3dp" android:right="3dp">
+
+
+        <shape>
+
+          <corners android:radius="5.0dp"/>
+
+          <solid android:color="#002366"/>
+
+        </shape>
+
+      </item>
+
+
+      <item android:top="2dp" android:bottom="2dp">
+
+
+        <shape>
+
+          <gradient android:startColor="#FFD700" android:endColor="#002366" android:angle="180"/>
+
+          <stroke android:color="#002366" android:width="1dp"/>
+
+          <corners android:radius="5.0dp"/>
+
+          <padding android:top="3dp" android:right="3dp" android:bottom="3dp" android:left="3dp"/>
+
+        </shape>
+
+      </item>
+
+    </layer-list>
+
+  </item>
+
+</selector>

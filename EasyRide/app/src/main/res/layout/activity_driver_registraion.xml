@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Driver Registration"
+
+                    android:textStyle="bold"
+                    android:id="@+id/txtCreateAcc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000"
+                    android:alpha="0.8"
+                    android:padding="7dp"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Surname"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:id="@+id/txtSurname"
+                    android:padding="5dp"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:layout_below="@+id/txtCreateAcc"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:padding="7dp"
+                    android:hint="Full Name"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtSurname"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtFullname"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Id no"
+                    android:padding="7dp"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtFullname"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtIdno"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Contact Number"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtIdno"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtContactNumber"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Email"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtPassword"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:padding="7dp"
+                    android:id="@+id/txtEmail"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Physical Address"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtContactNumber"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtPhysicalAddress"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="7dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Code"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtPhysicalAddress"
+
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtCode"
+                    android:padding="7dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Number plate"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtCode"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:padding="7dp"
+                    android:id="@+id/txtNumberPlate"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="Owner code"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtNumberPlate"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:padding="7dp"
+                    android:id="@+id/txtOwnerCode"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:hint="New Password"
+
+                    android:textSize="15sp"
+                    android:layout_below="@+id/txtOwnerCode"
+                    android:textColor="#000"
+                    android:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:alpha="0.8"
+                    android:id="@+id/txtPassword"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="7dp"
+                    android:background="@drawable/textboxstyle"
+                    android:layout_height="50dp" />
+
+
+
+                <Button
+                    android:text="Submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:alpha="0.8"
+                    android:layout_below="@+id/txtEmail"
+                    android:id="@+id/btnSignup2"
+                    android:background="@drawable/button"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"   />
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+     </RelativeLayout>

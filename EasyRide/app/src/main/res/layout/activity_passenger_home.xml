@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+             <Button
+                 android:text="Rearchage"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/CatchATaxi"
+                android:text="Catch a taxi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:textColor="#000"
+                         android:gravity="center"
+                         android:layout_height="wrap_content"
+                         android:text="Click Driver Below"
+                         />
+                     <androidx.recyclerview.widget.RecyclerView
+                         android:id="@+id/recylerdriver"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+
+                     </androidx.recyclerview.widget.RecyclerView>
+             </LinearLayout>
+
+     </LinearLayout>
+    </RelativeLayout>
